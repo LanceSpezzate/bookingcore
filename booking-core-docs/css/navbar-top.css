@@ -1,0 +1,8 @@
+/* Show it's not fixed to the top */
+body {
+  min-height: 75rem;
+}
+ul li{ line-height: 40px; }
+.lead{ padding: 90px 0 ; 
+	font-weight: 500;
+}

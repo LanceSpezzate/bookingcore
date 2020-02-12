@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:BookingCore booking.localhost
+BEGIN:VEVENT
+UID:d872debc3a2a260a9613a7a57c4bc2ae
+DTSTART:20191123T000000Z
+SEQUENCE:0
+TRANSP:OPAQUE
+DTEND:20191123T030000Z
+SUMMARY: Admin Booking Tour River Cruise Tour on the Seine
+CLASS:PUBLIC
+X-ALT-DESC;FMTTYPE=text/html:<p>Name: Admin</p>\n                          
+       <p>Email:admin@dev.com</p>\n                                <p>Phone
+ :112 666 888</p>\n                                <p>Address:</p>\n       
+                          <p>Customer notes:</p>\n                         
+        <p>Total guest:2</p>
+CATEGORIES:Tour
+DTSTAMP:20191122T035921Z
+END:VEVENT
+END:VCALENDAR
