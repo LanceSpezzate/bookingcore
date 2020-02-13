@@ -1,6 +1,5 @@
 /node_modules
 /public/hot
-/public/dist
 /public/fonts
 /public/storage
 /public/uploads/0000
@@ -20,7 +19,6 @@ npm-debug.log
 yarn-error.log
 
 /resources/admin/scss/css
-/public/css
 /public/module/user/css
 /public/module/tour/css
 /public/module/news/css
