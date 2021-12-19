@@ -167,7 +167,7 @@ if (!empty($menus))
                         @if(!empty($menuItem['icon']))
                             <span class="icon text-center"><i class="{{$menuItem['icon']}}"></i></span>
                         @endif
-                        {!! clean($menuItem['title']) !!}
+                        {!! $menuItem['title'] !!}
 
                     </a>
                     @if(!empty($menuItem['children']))
@@ -180,7 +180,7 @@ if (!empty($menus))
                                         @if(!empty($menuItem2['icon']))
                                             <i class="{{$menuItem2['icon']}}"></i>
                                         @endif
-                                        {!! clean($menuItem2['title']) !!}</a></li>
+                                        {!! $menuItem2['title'] !!}</a></li>
                             @endforeach
                         </ul>
                     @endif

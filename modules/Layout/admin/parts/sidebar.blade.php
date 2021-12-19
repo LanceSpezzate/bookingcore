@@ -217,9 +217,7 @@ if (!empty($menus)){
                 @if(!empty($menuItem['icon']))
                     <span class="icon text-center"><i class="{{$menuItem['icon']}}"></i></span>
                 @endif
-                {!! clean($menuItem['title'],[
-                    'Attr.AllowedClasses'=>null
-                ]) !!}
+                {!! $menuItem['title'] !!}
             </a>
             @if(!empty($menuItem['children']))
                 <span class="btn-toggle"><i class="fa fa-angle-left pull-right"></i></span>
@@ -229,9 +227,7 @@ if (!empty($menus)){
                                 @if(!empty($menuItem2['icon']))
                                     <i class="{{$menuItem2['icon']}}"></i>
                                 @endif
-                                {!! clean($menuItem2['title'],[
-                                    'Attr.AllowedClasses'=>null
-                                ]) !!}</a>
+                                {!! $menuItem2['title'] !!}</a>
                         </li>
                     @endforeach
                 </ul>
